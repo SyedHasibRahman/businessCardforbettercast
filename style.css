@@ -1,0 +1,63 @@
+
+.business-card{    
+  position: absolute;
+  left:0;top:0;right:0;bottom:0;
+  margin: auto;
+  width: 400px;
+  height: 220px;
+  background-color: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;  
+  border-radius: 15px;
+  font-family: 'Kaushan Script', cursive;
+}
+.company{    
+  flex: 40%; 
+  border-right: 1px solid rgb(174, 174, 174);
+  text-align: center;
+  line-height: 0px;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 20px;
+  background-color: rgb(237, 236, 236);
+  border-radius: 15px;
+}
+.personal{    
+  flex: 60%;  
+  border-right: 1px solid rgb(174, 174, 174);
+  padding-top: 20px;
+  border-radius: 15px;
+}
+.business-card .header img{
+    height: 70px;
+    width: 70px; 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+}
+.name,.designation{
+    text-align: right;
+    padding : 0  10px  0 0;
+    line-height: 0px;
+}
+a{
+    text-decoration: none;
+    color: #333; 
+}
+.info{    
+  margin-top: 30px;
+}
+.info .content{
+    display: flex; 
+    padding: 0 10px;
+    justify-content: flex-start;    
+    align-items: center; 
+    line-height: 0px;
+    font-family: 'Oleo Script', cursive;
+}
+.icon i{
+    font-size: 1.5em;
+    padding: 10px;
+    line-height: 0px;
+}
